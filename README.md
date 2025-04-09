@@ -1,6 +1,6 @@
 ![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)
 
-Bitwarden 客户端 API 的替代服务器实现，使用 Rust 编写，并与 [官方 Bitwarden 客户端](https://bitwarden.com/download/) 兼容 [[免责声明](#disclaimer)]，非常适合自托管部署，在自托管部署中，运行官方的资源密集型服务可能不太理想。
+Bitwarden 客户端 API 的替代服务器实现，使用 Rust 编写，并与 [官方 Bitwarden 客户端](https://bitwarden.com/download/) 兼容 [[免责声明](#免责声明)]，非常适合自托管部署，在自托管部署中，运行官方的资源密集型服务可能不太理想。
 
 ---
 
@@ -22,7 +22,7 @@ Bitwarden 客户端 API 的替代服务器实现，使用 Rust 编写，并与 [
 [![Discourse Discussions](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fvaultwarden.discourse.group%2F&style=flat-square&logo=discourse&color=953B00)](https://vaultwarden.discourse.group/)
 
 > [!IMPORTANT]
-> **当使用此服务器时，请直接向我们报告任何错误或建议（请参阅 [联系方式](#get-in-touch)），无论您使用的是什么客户端（移动端、桌面端、浏览器端...）。请勿使用官方 Bitwarden 支持渠道。**
+> **当使用此服务器时，请直接向我们报告任何错误或建议（请参阅 [联系方式](#联系方式)），无论您使用的是什么客户端（移动端、桌面端、浏览器端...）。请勿使用官方 Bitwarden 支持渠道。**
 
 <br>
 
@@ -113,7 +113,7 @@ services:
 
 有疑问、建议或需要帮助？ 加入我们在 [Matrix](https://matrix.to/#/#vaultwarden:matrix.org)、[GitHub Discussions](https://github.com/dani-garcia/vaultwarden/discussions) 或 [Discourse 论坛](https://vaultwarden.discourse.group/) 上的社区。
 
-遇到错误或崩溃？ 请搜索我们的问题跟踪器和讨论，看看是否已经有人报告了。 如果没有，请[发起新的讨论](https://github.com/dani-garcia/vaultwarden/discussions) 或[创建新的问题](https://github.com/dani-garcia/vaultwarden/issues/)。 确保您使用的是最新版本的 Vaultwarden，并且没有类似的未解决或已关闭的问题！
+遇到错误或崩溃？ 请搜索我们的问题跟踪器和讨论，看看是否已经有人报告了。 如果没有，请[发起新的讨论](https://github.com/dani-garcia/vaultwarden/discussions) 或[创建新的问题](https://github.com/dani-garcia/vaultwarden/issues)。 确保您使用的是最新版本的 Vaultwarden，并且没有类似的未解决或已关闭的问题！
 
 <br>
 
