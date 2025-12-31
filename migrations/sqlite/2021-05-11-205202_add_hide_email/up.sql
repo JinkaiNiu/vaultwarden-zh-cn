@@ -1,2 +1,0 @@
-ALTER TABLE sends
-ADD COLUMN hide_email BOOLEAN;

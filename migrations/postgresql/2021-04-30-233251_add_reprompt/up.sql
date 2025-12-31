@@ -1,2 +1,0 @@
-ALTER TABLE ciphers
-ADD COLUMN reprompt INTEGER;

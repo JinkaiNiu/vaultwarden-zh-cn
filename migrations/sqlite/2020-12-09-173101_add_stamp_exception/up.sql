@@ -1,1 +1,0 @@
-ALTER TABLE users ADD COLUMN stamp_exception TEXT DEFAULT NULL;
