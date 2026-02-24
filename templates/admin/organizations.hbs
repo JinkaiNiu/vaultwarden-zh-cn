@@ -9,7 +9,7 @@
                         <th class="vw-users">用户</th>
                         <th class="vw-entries">条目</th>
                         <th class="vw-attachments">附件</th>
-                        <th class="vw-misc">其他</th>
+                        <th class="vw-misc">杂项</th>
                         <th class="vw-actions">操作</th>
                     </tr>
                 </thead>
@@ -33,15 +33,15 @@
                             <span class="d-block">{{cipher_count}}</span>
                         </td>
                         <td>
-                            <span class="d-block"><strong>数量:</strong> {{attachment_count}}</span>
+                            <span class="d-block"><strong>数量：</strong> {{attachment_count}}</span>
                             {{#if attachment_count}}
-                            <span class="d-block"><strong>大小:</strong> {{attachment_size}}</span>
+                            <span class="d-block"><strong>大小：</strong> {{attachment_size}}</span>
                             {{/if}}
                         </td>
                         <td>
-                            <span class="d-block"><strong>集合:</strong> {{collection_count}}</span>
-                            <span class="d-block"><strong>群组:</strong> {{group_count}}</span>
-                            <span class="d-block"><strong>事件:</strong> {{event_count}}</span>
+                            <span class="d-block"><strong>集合：</strong> {{collection_count}}</span>
+                            <span class="d-block"><strong>群组：</strong> {{group_count}}</span>
+                            <span class="d-block"><strong>事件：</strong> {{event_count}}</span>
                         </td>
                         <td class="text-end px-1 small">
                             <button type="button" class="btn btn-sm btn-link p-0 border-0 float-right" vw-delete-organization data-vw-org-uuid="{{id}}" data-vw-org-name="{{name}}" data-vw-billing-email="{{billingEmail}}">删除组织</button><br>
@@ -59,6 +59,7 @@
 </main>
 
 <link rel="stylesheet" href="{{urlpath}}/vw_static/datatables.css" />
-<script src="{{urlpath}}/vw_static/jquery-3.7.1.slim.js"></script>
+<script src="{{urlpath}}/vw_static/jquery-4.0.0.slim.js"></script>
 <script src="{{urlpath}}/vw_static/datatables.js"></script>
+<script src="{{urlpath}}/vw_static/admin_organizations.js"></script>
 <script src="{{urlpath}}/vw_static/jdenticon-3.3.0.js"></script>
