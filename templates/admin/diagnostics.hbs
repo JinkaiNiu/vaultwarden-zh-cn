@@ -194,7 +194,14 @@
                     <dd class="col-sm-7">
                         <span id="http-response-errors" class="d-block"></span>
                     </dd>
-                </dl>
+                </dl>                    {{#if page_data.invalid_feature_flags}}
+                    <dt class="col-sm-5">无效的功能标志
+                        <span class="badge bg-warning text-dark abbr-badge" id="feature-flag-warning" title="某些功能标志无效或已过时！">警告</span>
+                    </dt>
+                    <dd class="col-sm-7">
+                        <span id="feature-flags" class="d-block"><b>标志：</b> <span id="feature-flags-string">{{page_data.invalid_feature_flags}}</span></span>
+                    </dd>
+                    {{/if}}
             </div>
         </div>
 
