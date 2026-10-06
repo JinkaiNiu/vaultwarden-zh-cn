@@ -1,0 +1,12 @@
+来自 {{org_name}} 组织的管理员账户恢复
+<!---------------->
+{{#if reset_password}}
+用户 {{user_name}} 的主密码已被更改。
+{{/if}}
+{{#if reset_2fa}}
+您的两步验证方式已被重置。{{#if fallback_2fa_email}}作为后备，邮件两步验证已启用。{{/if}}
+{{/if}}
+
+如果您没有发起此请求，请立即联系您的管理员。
+
+{{> email/email_footer_text }}
